@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-bool anagram(string s, string t)
+bool _stdcall anagram(string s, string t)
 {
 	if (s.length() != t.length())
 	{
@@ -30,10 +30,20 @@ bool anagram(string s, string t)
 	}
 	return true;
 }
+typedef struct MyStruct
+{
+	int a : 4;
+	int b : 4;
+}TEST;
+#define PR(...) printf(__VA_ARGS__)
 int _tmain(int argc, _TCHAR* argv[])
 {
 	string s = "abcd",t = "dcba";
+	TEST a;
+	a.a = 8;
+	a.b = 9;
 	bool flag = anagram(s, t);
+	cout << __cplusplus << endl;
 	return 0;
 }
 
