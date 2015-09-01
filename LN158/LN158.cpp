@@ -35,10 +35,6 @@ typedef struct MyStruct
 	int a : 4;
 	int b : 4;
 }TEST;
-enum MyEnum
-{
-
-};
 #define PR(...) printf(__VA_ARGS__)
 int _tmain(int argc, _TCHAR* argv[])
 {
