@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTC165", "LTC165\LTC165.csp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LN158", "LN158\LN158.vcxproj", "{00E7968C-0ACA-4976-9662-D63AB8D45550}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KMP", "KMP\KMP.vcxproj", "{C7BD4354-38C6-43B4-B34D-0A7559C29594}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,16 @@ Global
 		{00E7968C-0ACA-4976-9662-D63AB8D45550}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{00E7968C-0ACA-4976-9662-D63AB8D45550}.Release|Win32.ActiveCfg = Release|Win32
 		{00E7968C-0ACA-4976-9662-D63AB8D45550}.Release|Win32.Build.0 = Release|Win32
+		{C7BD4354-38C6-43B4-B34D-0A7559C29594}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{C7BD4354-38C6-43B4-B34D-0A7559C29594}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{C7BD4354-38C6-43B4-B34D-0A7559C29594}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{C7BD4354-38C6-43B4-B34D-0A7559C29594}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C7BD4354-38C6-43B4-B34D-0A7559C29594}.Debug|Win32.Build.0 = Debug|Win32
+		{C7BD4354-38C6-43B4-B34D-0A7559C29594}.Release|Any CPU.ActiveCfg = Release|Win32
+		{C7BD4354-38C6-43B4-B34D-0A7559C29594}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{C7BD4354-38C6-43B4-B34D-0A7559C29594}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{C7BD4354-38C6-43B4-B34D-0A7559C29594}.Release|Win32.ActiveCfg = Release|Win32
+		{C7BD4354-38C6-43B4-B34D-0A7559C29594}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
