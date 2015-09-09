@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LN171", "LN171\LN171.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LN78", "LN78\LN78.vcxproj", "{A3A45B25-B67C-4DB0-A4A2-65DBD79A4451}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTC139", "LTC139\LTC139.csproj", "{64E8D146-A1E5-482C-8319-95E7A5872F92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,16 @@ Global
 		{A3A45B25-B67C-4DB0-A4A2-65DBD79A4451}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{A3A45B25-B67C-4DB0-A4A2-65DBD79A4451}.Release|Win32.ActiveCfg = Release|Win32
 		{A3A45B25-B67C-4DB0-A4A2-65DBD79A4451}.Release|Win32.Build.0 = Release|Win32
+		{64E8D146-A1E5-482C-8319-95E7A5872F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E8D146-A1E5-482C-8319-95E7A5872F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E8D146-A1E5-482C-8319-95E7A5872F92}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{64E8D146-A1E5-482C-8319-95E7A5872F92}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{64E8D146-A1E5-482C-8319-95E7A5872F92}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{64E8D146-A1E5-482C-8319-95E7A5872F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E8D146-A1E5-482C-8319-95E7A5872F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64E8D146-A1E5-482C-8319-95E7A5872F92}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{64E8D146-A1E5-482C-8319-95E7A5872F92}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{64E8D146-A1E5-482C-8319-95E7A5872F92}.Release|Win32.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

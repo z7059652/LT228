@@ -1,18 +1,5 @@
-﻿Build started 9/1/2015 10:43:00 AM.
-     1>Project "D:\LT228\LN158\LN158.vcxproj" on node 5 (Rebuild target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\LN158.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
-         stdafx.cpp
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\LN158.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt LN158.cpp
-         LN158.cpp
-     1>d:\lt228\ln158\ln158.cpp(16): warning C4018: '<' : signed/unsigned mismatch
-     1>d:\lt228\ln158\ln158.cpp(20): warning C4018: '<' : signed/unsigned mismatch
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\LT228\Debug\LN158.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\LT228\Debug\LN158.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\LT228\Debug\LN158.lib" /MACHINE:X86 Debug\LN158.obj
-         Debug\stdafx.obj
-         LN158.vcxproj -> D:\LT228\Debug\LN158.exe
-     1>Done Building Project "D:\LT228\LN158\LN158.vcxproj" (Rebuild target(s)).
+﻿Build started 9/9/2015 5:50:13 PM.
 
 Build succeeded.
 
-Time Elapsed 00:00:01.59
+Time Elapsed 00:00:00.03

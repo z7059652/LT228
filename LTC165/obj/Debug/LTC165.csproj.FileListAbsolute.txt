@@ -3,8 +3,3 @@ C:\Users\v-zhuxia\Documents\Visual Studio 2013\Projects\LT228\LTC165\bin\Debug\L
 C:\Users\v-zhuxia\Documents\Visual Studio 2013\Projects\LT228\LTC165\obj\Debug\LTC165.csprojResolveAssemblyReference.cache
 C:\Users\v-zhuxia\Documents\Visual Studio 2013\Projects\LT228\LTC165\obj\Debug\LTC165.exe
 C:\Users\v-zhuxia\Documents\Visual Studio 2013\Projects\LT228\LTC165\obj\Debug\LTC165.pdb
-D:\LT228\LTC165\bin\Debug\LTC165.exe
-D:\LT228\LTC165\bin\Debug\LTC165.pdb
-D:\LT228\LTC165\obj\Debug\LTC165.csprojResolveAssemblyReference.cache
-D:\LT228\LTC165\obj\Debug\LTC165.exe
-D:\LT228\LTC165\obj\Debug\LTC165.pdb
