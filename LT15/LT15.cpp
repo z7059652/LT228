@@ -8,45 +8,6 @@
 #include <algorithm>
 using namespace std;
 
-bool IsCompare(int a, int b)
-{
-	return a > b;
-}
-bool CompareVector(vector<int> a, vector<int> b)
-{
-	sort(a.begin(), a.end(), IsCompare);
-//	qsort(a.begin(), a.size(), sizeof(a[0]), IsCompare);
-	sort(b.begin(), b.end(), IsCompare);
-	for (int i = 0; i < a.size();i++)
-	{
-		if (a[i] != b[i])
-		{
-			return false;
-		}
-	}
-	return true;
-}
-bool find(vector<int>& nums, int start, int& j, int& k,int sum)
-{
-	j = start;
-	k = nums.size() - 1;
-	while (j < k)
-	{
-		if (nums[j] + nums[k] == sum)
-		{
-			return true;
-		}
-		if (nums[j] + nums[k] < sum)
-		{
-			j++;
-		}
-		else
-		{
-			k--;
-		}
-	}
-	return false;
-}
 vector<vector<int>> threeSum(vector<int>& nums)
 {
 	vector<vector<int>> res;
