@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LN78", "LN78\LN78.vcxproj",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTC139", "LTC139\LTC139.csproj", "{64E8D146-A1E5-482C-8319-95E7A5872F92}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LT15", "LT15\LT15.vcxproj", "{F6BD596D-2003-4476-ACD9-0A0CA001BAEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +111,16 @@ Global
 		{64E8D146-A1E5-482C-8319-95E7A5872F92}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{64E8D146-A1E5-482C-8319-95E7A5872F92}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{64E8D146-A1E5-482C-8319-95E7A5872F92}.Release|Win32.ActiveCfg = Release|Any CPU
+		{F6BD596D-2003-4476-ACD9-0A0CA001BAEB}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{F6BD596D-2003-4476-ACD9-0A0CA001BAEB}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{F6BD596D-2003-4476-ACD9-0A0CA001BAEB}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{F6BD596D-2003-4476-ACD9-0A0CA001BAEB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6BD596D-2003-4476-ACD9-0A0CA001BAEB}.Debug|Win32.Build.0 = Debug|Win32
+		{F6BD596D-2003-4476-ACD9-0A0CA001BAEB}.Release|Any CPU.ActiveCfg = Release|Win32
+		{F6BD596D-2003-4476-ACD9-0A0CA001BAEB}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{F6BD596D-2003-4476-ACD9-0A0CA001BAEB}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{F6BD596D-2003-4476-ACD9-0A0CA001BAEB}.Release|Win32.ActiveCfg = Release|Win32
+		{F6BD596D-2003-4476-ACD9-0A0CA001BAEB}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
