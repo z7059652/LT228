@@ -16,18 +16,18 @@ int search(vector<int> &A, int left, int right, int target)
 		return mid;
 	if (A[mid] < target)
 		return search(A, mid + 1, right, target);
-	return search(A, left, mid, target);
+	return search(A, left, mid-1, target);
 }
 int findMax(vector<int> &A, int low, int high)
 {
-	if (low == high - 1)
-		return A[low] > A[high] ? low : high;
-	if (low == high)
-	{
-		return low;
-	}
 	int mid = (low + high) / 2;
-	if (A[mid] < A[low])
+	if (mid == low)
+		return A[low] > A[high] ? low : high;
+	if (A[mid] > A[mid+1] && A[mid] > A[mid-1])
+	{
+		return mid;
+	}
+	if (A[mid] <= A[low])
 		return findMax(A, low, mid);
 	return findMax(A, mid + 1, high);
 }
@@ -48,15 +48,20 @@ int search(vector<int> &A, int target)
 int _tmain(int argc, _TCHAR* argv[])
 {
 	vector<int> A;
-	for (int i = 0; i < 3000;i++)
+	//A.push_back(4);
+	//A.push_back(5);
+	//A.push_back(6);
+	//A.push_back(2);
+	//A.push_back(3);
+	for (int i = 0; i <= 3000; i++)
 	{
 		A.push_back(i + 133);
 	}
-	for (int i = 130; i > 10; i--)
+	for (int i = 129; i > 10; i--)
 	{
 		A.push_back(i);
 	}
-	int res = search(A, -9);
+	int res = search(A, 131);
 	return 0;
 }
 
