@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LN114", "LN114\LN114.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LN179", "LN179\LN179.vcxproj", "{4251921C-AF14-4727-A873-1FFA49EFAAC3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LN-FastPower", "LN-FastPower\LN-FastPower.vcxproj", "{8650A261-3E16-429D-9EEF-CC18418F2843}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -205,6 +207,16 @@ Global
 		{4251921C-AF14-4727-A873-1FFA49EFAAC3}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{4251921C-AF14-4727-A873-1FFA49EFAAC3}.Release|Win32.ActiveCfg = Release|Win32
 		{4251921C-AF14-4727-A873-1FFA49EFAAC3}.Release|Win32.Build.0 = Release|Win32
+		{8650A261-3E16-429D-9EEF-CC18418F2843}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{8650A261-3E16-429D-9EEF-CC18418F2843}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{8650A261-3E16-429D-9EEF-CC18418F2843}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{8650A261-3E16-429D-9EEF-CC18418F2843}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8650A261-3E16-429D-9EEF-CC18418F2843}.Debug|Win32.Build.0 = Debug|Win32
+		{8650A261-3E16-429D-9EEF-CC18418F2843}.Release|Any CPU.ActiveCfg = Release|Win32
+		{8650A261-3E16-429D-9EEF-CC18418F2843}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{8650A261-3E16-429D-9EEF-CC18418F2843}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{8650A261-3E16-429D-9EEF-CC18418F2843}.Release|Win32.ActiveCfg = Release|Win32
+		{8650A261-3E16-429D-9EEF-CC18418F2843}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
