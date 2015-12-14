@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LT228", "LT228\LT228.vcxproj", "{5B0FA30F-03B3-4541-B9E9-AC7E2F71C783}"
 EndProject
@@ -42,6 +42,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LNLargest-number", "LNLargest-number\LNLargest-number.vcxproj", "{D732BEB5-0826-4E94-8E3E-FE9C967FBBC9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reorderList", "reorderList\reorderList.vcxproj", "{81EF459D-3B09-4BAC-8A47-192D059543AC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "construct-binary-tree-from-preorder-and-inorder-traversal", "construct-binary-tree-from-preorder-and-inorder-traversal\construct-binary-tree-from-preorder-and-inorder-traversal.vcxproj", "{7EF5E0DF-A814-4FE5-9F6B-E7E317369E12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -253,6 +255,16 @@ Global
 		{81EF459D-3B09-4BAC-8A47-192D059543AC}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{81EF459D-3B09-4BAC-8A47-192D059543AC}.Release|Win32.ActiveCfg = Release|Win32
 		{81EF459D-3B09-4BAC-8A47-192D059543AC}.Release|Win32.Build.0 = Release|Win32
+		{7EF5E0DF-A814-4FE5-9F6B-E7E317369E12}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{7EF5E0DF-A814-4FE5-9F6B-E7E317369E12}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{7EF5E0DF-A814-4FE5-9F6B-E7E317369E12}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{7EF5E0DF-A814-4FE5-9F6B-E7E317369E12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7EF5E0DF-A814-4FE5-9F6B-E7E317369E12}.Debug|Win32.Build.0 = Debug|Win32
+		{7EF5E0DF-A814-4FE5-9F6B-E7E317369E12}.Release|Any CPU.ActiveCfg = Release|Win32
+		{7EF5E0DF-A814-4FE5-9F6B-E7E317369E12}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{7EF5E0DF-A814-4FE5-9F6B-E7E317369E12}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{7EF5E0DF-A814-4FE5-9F6B-E7E317369E12}.Release|Win32.ActiveCfg = Release|Win32
+		{7EF5E0DF-A814-4FE5-9F6B-E7E317369E12}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
