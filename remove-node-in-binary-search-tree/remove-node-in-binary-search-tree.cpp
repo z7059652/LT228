@@ -21,6 +21,8 @@ public:
 
 TreeNode* findNode(TreeNode* root, int value)
 {
+	if ((root->left != NULL && root->left->val == value) || (root->right != NULL && root->right->val == value))
+		return root;
 	if (root->val > value)
 	{
 		if (root->left == NULL)
@@ -33,31 +35,40 @@ TreeNode* findNode(TreeNode* root, int value)
 			return NULL;
 		return findNode(root->right, value);
 	}
-
-	if (root->left->val == value || root->right->val == value)
-		return root;
 }
 void deleteNode(TreeNode* root, TreeNode* proot)
 {
 	bool flag = false;
+	if (proot->right != NULL && proot->right->val == root->val)
+		flag = true;
 	while (root->left != NULL || root->right != NULL)
 	{
 		if (root->left != NULL)
 		{
 			root->val = root->left->val;
 			root = root->left;
-			proot = proot->left;
+			if (!flag)
+			{
+				proot = proot->left;
+			}
+			else
+				proot = proot->right;
 			flag = false;
 		}
 		else
 		{
 			root->val = root->right->val;
 			root = root->right;
-			proot = proot->right;
+			if (!flag)
+			{
+				proot = proot->left;
+			}
+			else
+				proot = proot->right;
 			flag = true;
 		}
 	}
-	delete root;
+//	delete root;
 	if (flag == false)
 		proot->left = NULL;
 	else
@@ -80,7 +91,7 @@ TreeNode* removeNode(TreeNode* root, int value)
 	TreeNode* predelete = findNode(root, value);
 	if (predelete == NULL)
 		return root;
-	if (predelete->left->val == value)
+	if (predelete->left != NULL && predelete->left->val == value)
 		deleteNode(predelete->left, predelete);
 	else
 		deleteNode(predelete->right, predelete);
@@ -89,6 +100,18 @@ TreeNode* removeNode(TreeNode* root, int value)
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+	TreeNode A(1001);
+	TreeNode B(92);
+	TreeNode C(81);
+	TreeNode D(75);
+	TreeNode E(41);
+	TreeNode F(65);
+	A.left = &B;
+	B.left = &C;
+	C.left = &D;
+	D.left = &E;
+	E.right = &F;
+	TreeNode* root = removeNode(&A, 92);
 	return 0;
 }
 
