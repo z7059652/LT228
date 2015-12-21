@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "binary-tree-serialization",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "remove-node-in-binary-search-tree", "remove-node-in-binary-search-tree\remove-node-in-binary-search-tree.vcxproj", "{AC56ECC9-BFC4-4C5A-AC19-2DBB8086E5AA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "152combinations", "152combinations\152combinations.vcxproj", "{47AA7D68-B8F3-4055-B5EC-5E253AAB9873}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -289,6 +291,16 @@ Global
 		{AC56ECC9-BFC4-4C5A-AC19-2DBB8086E5AA}.Release|Mixed Platforms.Build.0 = Release|Win32
 		{AC56ECC9-BFC4-4C5A-AC19-2DBB8086E5AA}.Release|Win32.ActiveCfg = Release|Win32
 		{AC56ECC9-BFC4-4C5A-AC19-2DBB8086E5AA}.Release|Win32.Build.0 = Release|Win32
+		{47AA7D68-B8F3-4055-B5EC-5E253AAB9873}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{47AA7D68-B8F3-4055-B5EC-5E253AAB9873}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{47AA7D68-B8F3-4055-B5EC-5E253AAB9873}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{47AA7D68-B8F3-4055-B5EC-5E253AAB9873}.Debug|Win32.ActiveCfg = Debug|Win32
+		{47AA7D68-B8F3-4055-B5EC-5E253AAB9873}.Debug|Win32.Build.0 = Debug|Win32
+		{47AA7D68-B8F3-4055-B5EC-5E253AAB9873}.Release|Any CPU.ActiveCfg = Release|Win32
+		{47AA7D68-B8F3-4055-B5EC-5E253AAB9873}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{47AA7D68-B8F3-4055-B5EC-5E253AAB9873}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{47AA7D68-B8F3-4055-B5EC-5E253AAB9873}.Release|Win32.ActiveCfg = Release|Win32
+		{47AA7D68-B8F3-4055-B5EC-5E253AAB9873}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
