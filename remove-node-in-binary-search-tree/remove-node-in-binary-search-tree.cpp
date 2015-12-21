@@ -41,7 +41,7 @@ void deleteNode(TreeNode* root, TreeNode* proot)
 	bool flag = false;
 	if (proot->right != NULL && proot->right->val == root->val)
 		flag = true;
-	while (root->left != NULL || root->right != NULL)
+	while (root->left != NULL && root->right != NULL)
 	{
 		if (root->left != NULL)
 		{
@@ -68,11 +68,28 @@ void deleteNode(TreeNode* root, TreeNode* proot)
 			flag = true;
 		}
 	}
-//	delete root;
-	if (flag == false)
-		proot->left = NULL;
-	else
-		proot->right = NULL;
+	if (root->left == NULL)
+	{
+		if (flag == false)
+		{
+			proot->left = root->right;
+		}
+		else
+		{
+			proot->right = root->right;
+		}
+	}
+	if (root->right == NULL)
+	{
+		if (flag == false)
+		{
+			proot->left = root->left;
+		}
+		else
+		{
+			proot->right = root->left;
+		}
+	}
 }
 TreeNode* removeNode(TreeNode* root, int value)
 {
@@ -83,6 +100,12 @@ TreeNode* removeNode(TreeNode* root, int value)
 	{
 		if (root->left == NULL && root->right == NULL)
 			return NULL;
+		if (root->left == NULL || root->right == NULL)
+		{
+			if (root->left == NULL)
+				return root->right;
+			return root->left;
+		}
 		TreeNode* temp = new TreeNode(-1);
 		temp->left = root;
 		deleteNode(root, temp);
