@@ -59,7 +59,7 @@ public:
 int _tmain(int argc, _TCHAR* argv[])
 {
 	Solution s;
-	string str = "ab";
+	string str("ab");
 	s.partition(str);
 	return 0;
 }
