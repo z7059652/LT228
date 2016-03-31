@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include <iostream>
+#include <algorithm>
 using namespace std;
 void MyPrint(int a[],int len)
 {
@@ -76,6 +77,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	getNextValue(s, a);
 	MyPrint(a,s.length());
 	int pos = KMPSearch(p,s, a);
+	free(a);
+	a = NULL;
 	return 0;
 }
 

@@ -2,6 +2,8 @@
 //
 
 #include "stdafx.h"
+
+using namespace std;
 long long cal_factorial(long a, long start = 1)
 {
 	long long res = 1;
@@ -22,6 +24,10 @@ long long cal_factorial(long a, long start = 1)
 	}
 	return res;
 }
+class My
+{
+
+};
 int uniquePaths(int m, int n)
 {
 	int max_mn = (m <= n ? m : n) - 1; //尽可能使得乘积较小，防止溢出
